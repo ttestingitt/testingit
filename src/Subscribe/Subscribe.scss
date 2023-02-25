@@ -29,3 +29,34 @@
     }
   }
 }
+
+@media only screen and (max-width: 1030px) {
+  .sub-text {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .subscribe-container {
+    padding: 20px 1%;
+    .sub-banner {
+      width: 85%;
+      height: 80px;
+
+      .sub-text {
+        display: none;
+      }
+
+      button {
+        background-color: white;
+        color: white;
+        font-weight: 500;
+        background-color: var(--dark-green);
+        border: var(--dark-green);
+        &:hover {
+          opacity: 80%;
+        }
+      }
+    }
+  }
+}

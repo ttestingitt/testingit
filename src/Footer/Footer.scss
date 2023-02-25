@@ -36,3 +36,33 @@
     }
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .footer-container {
+    margin-bottom: 20px;
+
+    .footer-content {
+      .name {
+        font-size: 0.7rem;
+      }
+
+      .logo {
+        width: auto;
+        img {
+          height: 13px !important;
+        }
+      }
+
+      .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+
+        i {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

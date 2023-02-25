@@ -33,3 +33,9 @@
     gap: 35px;
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .title-part {
+    text-align: center;
+  }
+}

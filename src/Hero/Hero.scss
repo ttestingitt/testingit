@@ -56,3 +56,29 @@
     }
   }
 }
+
+@media only screen and (max-width: 1030px) {
+  .hero-right-sec {
+    .n-logo {
+      height: 33vh !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-left-sec {
+    text-align: center;
+  }
+
+  .hero-right-sec {
+    .n-logo {
+      height: 30vh !important;
+    }
+  }
+}

@@ -37,3 +37,22 @@
     }
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .dynamic-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    .dynamic-left-section {
+      .dynamic-animation {
+        height: 45vh !important;
+      }
+    }
+    .dynamic-right-section {
+      width: 250px;
+      text-align: center;
+    }
+  }
+}
