@@ -1,0 +1,58 @@
+.hero-container {
+  height: 100vh;
+  // background-color: var(--green-color);
+  background: linear-gradient(
+    153deg,
+    rgba(177, 200, 173, 1) 0%,
+    rgba(152, 172, 149, 1) 45%,
+    rgba(57, 66, 55, 1) 100%
+  );
+
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    height: 100vh;
+
+    .hero-left-sec {
+      .title {
+        font-size: var(--title-font);
+        font-weight: 800;
+      }
+
+      .sub-title {
+        font-size: var(--title-font);
+        font-weight: 500;
+      }
+
+      .btn {
+        background-color: var(--dark-green);
+        border: var(--dark-green);
+        margin-top: 3%;
+        font-weight: 500;
+
+        &:hover {
+          opacity: 80%;
+        }
+      }
+
+      .seek-job {
+        margin-top: 2%;
+        font-size: var(--sub-heading-2);
+
+        span {
+          font-weight: 700;
+          text-decoration: underline;
+          font-size: var(--sub-heading-2);
+        }
+      }
+    }
+
+    .hero-right-sec {
+      .n-logo {
+        height: 50vh;
+      }
+    }
+  }
+}

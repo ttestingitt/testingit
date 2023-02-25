@@ -1,0 +1,25 @@
+.navbar {
+  padding-right: 10%;
+  padding-left: 10%;
+  background-color: var(--green-color) !important;
+  box-shadow: 0 10px 30px -15px gray;
+  position: fixed;
+  width: 100%;
+
+  .nav-logo {
+    height: 30px;
+    padding-right: 50px;
+  }
+
+  .navbar-collapse {
+    justify-content: end;
+
+    li {
+      margin-left: 25px;
+    }
+  }
+
+  .nav-link {
+    font-weight: 500;
+  }
+}

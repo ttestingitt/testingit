@@ -1,0 +1,35 @@
+.why-container {
+  height: 100%;
+  background-color: var(--green-color);
+  padding: 60px 0;
+  padding-bottom: 85px;
+
+  .title-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+    .title {
+      font-size: var(--title-font);
+      font-weight: bold;
+    }
+
+    .desc {
+      color: var(--gray-color);
+      width: 75%;
+      font-size: var(--sub-title-font);
+      text-align: center;
+    }
+  }
+
+  .cards-part {
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+}

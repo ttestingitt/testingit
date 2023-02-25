@@ -1,0 +1,38 @@
+.footer-container {
+  margin-bottom: 30px;
+
+  .splitter {
+    height: 1px;
+    background-color: lightgray;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+
+    .name {
+      font-size: 1rem;
+    }
+
+    .logo {
+      width: 150px;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      i {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}

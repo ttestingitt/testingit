@@ -1,0 +1,39 @@
+.dynamic-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+  height: 100vh;
+  padding: 0 7%;
+
+  .dynamic-left-section {
+    .dynamic-animation {
+      height: 70vh;
+    }
+  }
+
+  .dynamic-right-section {
+    width: 500px;
+    .main-text {
+      font-size: 2.7rem;
+      font-weight: bold;
+    }
+    .dyna-text {
+      span {
+        font-size: 2rem;
+        color: var(--dark-green);
+        font-weight: 500;
+      }
+    }
+    .btn {
+      background-color: var(--dark-green);
+      border: var(--dark-green);
+      margin-top: 4%;
+      font-weight: 500;
+
+      &:hover {
+        opacity: 80%;
+      }
+    }
+  }
+}

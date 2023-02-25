@@ -1,0 +1,35 @@
+.card-container {
+  width: 550px;
+  height: 233px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 40px rgb(152 145 158 / 10%);
+  border: 1px solid rgba(117, 125, 154, 0.3);
+
+  .card-content {
+    padding: 30px;
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      i {
+        font-weight: 500;
+        font-size: 2rem;
+        color: var(--green-color);
+      }
+
+      .card-title {
+        font-size: var(--heading-2);
+        font-weight: 500;
+      }
+    }
+
+    .card-desc {
+      font-size: var(--sub-heading-2);
+      color: var(--gray-color);
+      text-align: justify;
+    }
+  }
+}

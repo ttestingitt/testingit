@@ -1,0 +1,31 @@
+.subscribe-container {
+  padding: 85px 7%;
+  .sub-banner {
+    width: 85%;
+    height: 160px;
+    background-color: var(--green-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 40px;
+
+    .sub-text {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: white;
+      color: white;
+      font-weight: 500;
+      background-color: var(--dark-green);
+      border: var(--dark-green);
+      &:hover {
+        opacity: 80%;
+      }
+    }
+  }
+}
