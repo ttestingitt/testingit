@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/testingit/static/css/main.732225c9.css",
+    "main.css": "/testingit/static/css/main.f092a0e5.css",
     "main.js": "/testingit/static/js/main.aa96fa11.js",
     "static/js/787.c20df60e.chunk.js": "/testingit/static/js/787.c20df60e.chunk.js",
     "static/media/remixicon.svg?t=1590207869815": "/testingit/static/media/remixicon.9cedd2150922ead84869.svg",
@@ -12,12 +12,12 @@
     "static/media/logo-text-black.svg": "/testingit/static/media/logo-text-black.1a67361852b683738d79e793f2f332eb.svg",
     "index.html": "/testingit/index.html",
     "static/media/letter-only-black.svg": "/testingit/static/media/letter-only-black.326edcc7fc913b4dfa389aa33d54b1c0.svg",
-    "main.732225c9.css.map": "/testingit/static/css/main.732225c9.css.map",
+    "main.f092a0e5.css.map": "/testingit/static/css/main.f092a0e5.css.map",
     "main.aa96fa11.js.map": "/testingit/static/js/main.aa96fa11.js.map",
     "787.c20df60e.chunk.js.map": "/testingit/static/js/787.c20df60e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.732225c9.css",
+    "static/css/main.f092a0e5.css",
     "static/js/main.aa96fa11.js"
   ]
 }
