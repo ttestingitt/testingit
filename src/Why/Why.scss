@@ -1,7 +1,7 @@
 .why-container {
   height: 100%;
   background-color: var(--green-color);
-  padding: 60px 0;
+  padding: 60px 20px;
   padding-bottom: 85px;
 
   .title-part {
@@ -14,6 +14,7 @@
     .title {
       font-size: var(--title-font);
       font-weight: bold;
+      text-align: center;
     }
 
     .desc {
@@ -25,7 +26,6 @@
   }
 
   .cards-part {
-    padding: 0 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,8 +34,24 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .title-part {
+    .title {
+      font-size: 2rem !important;
+    }
+  }
+}
+
 @media only screen and (max-width: 430px) {
   .title-part {
-    text-align: center;
+    padding-bottom: 25px !important;
+
+    .title {
+      font-size: 1.5rem !important;
+    }
+    .desc {
+      font-size: 0.8rem !important;
+      width: 95% !important;
+    }
   }
 }

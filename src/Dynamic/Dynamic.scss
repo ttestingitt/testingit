@@ -38,21 +38,69 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .dynamic-container {
+    gap: 50px;
+    padding: 0 40px !important;
+  }
+
+  .dynamic-right-section {
+    .main-text {
+      font-size: 2.4rem !important;
+    }
+  }
+
+  .dynamic-left-section {
+    .dynamic-animation {
+      height: 52vh !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dynamic-container {
+    gap: 50px;
+    padding: 0 40px !important;
+  }
+
+  .dynamic-right-section {
+    .main-text {
+      font-size: 1.5rem !important;
+    }
+    .dyna-text span {
+      font-size: 1.5rem !important;
+    }
+  }
+
+  .dynamic-left-section {
+    .dynamic-animation {
+      height: 40vh !important;
+    }
+  }
+}
+
 @media only screen and (max-width: 430px) {
   .dynamic-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 20px;
 
     .dynamic-left-section {
       .dynamic-animation {
-        height: 45vh !important;
+        height: 35vh !important;
       }
     }
     .dynamic-right-section {
-      width: 250px;
+      width: 300px;
       text-align: center;
+
+      .main-text {
+        font-size: 1.5rem !important;
+      }
+      .dyna-text span {
+        font-size: 1.1rem !important;
+      }
     }
   }
 }

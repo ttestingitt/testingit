@@ -1,22 +1,20 @@
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
+import { Route, Routes } from "react-router-dom";
 
+import Home from "./Containers/Home/Home";
+import HireTalents from "./Containers/HireTalents/HireTalents";
 import Hero from "./Hero/Hero";
-import Dynamic from "./Dynamic/Dynamic";
-import Why from "./Why/Why";
-import Subscribe from "./Subscribe/Subscribe";
-import Footer from "./Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Hero />
-      <Dynamic />
-      <Why />
-      <Subscribe />
-      <Footer />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/HireTalents" element={<HireTalents />} />
+      </Routes>
+    </>
   );
 }
 
