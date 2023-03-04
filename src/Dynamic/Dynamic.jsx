@@ -4,6 +4,7 @@ import "./Dynamic.scss";
 import Typed from "react-typed";
 
 import dynamicAnime from "../assets/dynamic/Interview-amico.svg";
+import { Link } from "react-router-dom";
 
 const Dynamic = () => {
   return (
@@ -29,9 +30,11 @@ const Dynamic = () => {
           loop
         />
         <div>
-          <button type="button" class="btn btn-primary btn-lg">
-            Hire Talents
-          </button>
+          <Link to="/HireTalents">
+            <button type="button" className="btn btn-primary btn-lg">
+              Hire Talents
+            </button>
+          </Link>
         </div>
       </div>
     </div>

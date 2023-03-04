@@ -13,9 +13,21 @@ const Footer = () => {
           <img className="nav-logo" src={textLogo} alt="text logo" />
         </div>
         <div className="social">
-          <i class="ri-twitter-fill"></i>
-          <i class="ri-facebook-circle-fill"></i>
-          <i class="ri-linkedin-box-fill"></i>
+          <i className="ri-twitter-fill"></i>
+          <a
+            href="https://www.facebook.com/VENOTCH"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="ri-facebook-circle-fill"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/venotch/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="ri-linkedin-box-fill"></i>
+          </a>
         </div>
       </div>
     </div>

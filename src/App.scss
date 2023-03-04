@@ -6,12 +6,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
-a {
-  text-decoration: none;
+a,
+ul {
+  text-decoration: none !important;
 }
 
-// @media only screen and (max-width: 430px) {
-//   * {
-//     font-size: 0.7rem;
-//   }
-// }
+ul a {
+  text-decoration: none;
+}

@@ -3,7 +3,7 @@ import "./Hero.scss";
 
 import Nav from "../Nav/Nav";
 import NLogo from "../assets/logo/letter-only-black.svg";
-// import NLogo from "../assets/logo/letter-only-white.svg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -13,9 +13,11 @@ const Hero = () => {
         <div className="hero-left-sec">
           <div className="title">Grow Your Team With</div>
           <div className="sub-title">Remote Top-Notch Talents</div>
-          <button type="button" class="btn btn-primary btn-lg">
-            Hire Talents
-          </button>
+          <Link to="/HireTalents">
+            <button type="button" className="btn btn-primary btn-lg">
+              Hire Talents
+            </button>
+          </Link>
           <div className="seek-job">
             Seeking jobs instead? <span>Apply as a talent</span>
           </div>

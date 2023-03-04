@@ -1,0 +1,62 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 30px;
+  row-gap: 50px;
+  padding: 70px;
+
+  .left {
+  }
+
+  .right {
+    img {
+      height: 50vh;
+    }
+  }
+}
+
+form {
+  label {
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+
+  .form-group {
+    margin-bottom: 0px;
+
+    &.talents {
+      margin-top: 10px;
+    }
+  }
+
+  .form-control {
+    font-size: 12px !important;
+    min-width: 190px;
+  }
+
+  .btn {
+    background-color: var(--dark-green);
+    border: var(--dark-green);
+    margin-top: 20px;
+    font-weight: 500;
+
+    &:hover {
+      opacity: 80%;
+      background-color: var(--dark-green);
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .wrapper {
+    padding: 70px 20px;
+  }
+  .right {
+    img {
+      height: 30vh !important;
+    }
+  }
+}
