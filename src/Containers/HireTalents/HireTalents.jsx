@@ -64,7 +64,7 @@ const HireTalents = () => {
           alert(
             "Thank you for submitting your request! We will get in touch with you as soon as possible."
           );
-          navigate("/home");
+          navigate("/testingit/home");
         },
         (error) => {
           console.log(error.text);
