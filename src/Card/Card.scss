@@ -1,6 +1,6 @@
 .card-container {
-  width: 550px;
-  min-height: 233px;
+  width: 440px;
+  min-height: 300px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 0 40px rgb(152 145 158 / 10%);
@@ -35,12 +35,17 @@
 }
 
 @media only screen and (max-width: 430px) {
+  .why-container {
+    padding: 40px 20px;
+  }
   .card-content {
     padding: 20px !important;
     .card-header {
-      div,
       i {
         font-size: 1.1rem !important;
+      }
+      .card-title {
+        font-size: 0.8rem !important;
       }
     }
     .card-desc {

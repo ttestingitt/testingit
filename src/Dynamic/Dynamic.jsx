@@ -30,7 +30,7 @@ const Dynamic = () => {
           loop
         />
         <div>
-          <Link to="/HireTalents">
+          <Link to="/testingit/HireTalents">
             <button type="button" className="btn btn-primary btn-lg">
               Hire Talents
             </button>

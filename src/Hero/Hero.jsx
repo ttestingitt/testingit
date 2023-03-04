@@ -13,14 +13,14 @@ const Hero = () => {
         <div className="hero-left-sec">
           <div className="title">Grow Your Team With</div>
           <div className="sub-title">Remote Top-Notch Talents</div>
-          <Link to="/HireTalents">
+          <Link to="/testingit/HireTalents">
             <button type="button" className="btn btn-primary btn-lg">
               Hire Talents
             </button>
           </Link>
-          <div className="seek-job">
+          {/* <div className="seek-job">
             Seeking jobs instead? <span>Apply as a talent</span>
-          </div>
+          </div> */}
         </div>
         <div className="hero-right-sec">
           <img className="n-logo" src={NLogo} alt="text logo" />

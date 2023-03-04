@@ -1,0 +1,56 @@
+.resumes-container {
+  height: 100%;
+  background-color: var(--green-color);
+  padding: 60px 20px 10px 20px;
+
+  .title-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+    .title {
+      font-size: var(--title-font);
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .desc {
+      color: var(--gray-color);
+      width: 75%;
+      font-size: var(--sub-title-font);
+      text-align: center;
+    }
+  }
+
+  .cards-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title-part {
+    .title {
+      font-size: 2rem !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .title-part {
+    padding-bottom: 25px !important;
+
+    .title {
+      font-size: 1.5rem !important;
+    }
+    .desc {
+      font-size: 0.8rem !important;
+      width: 95% !important;
+    }
+  }
+}

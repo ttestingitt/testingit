@@ -10,7 +10,7 @@ const Subscribe = () => {
           Start getting top notch talents for your startup
         </div>
         <div>
-          <Link to="/HireTalents">
+          <Link to="/testingit/HireTalents">
             <button type="button" className="btn btn-primary btn-lg">
               Get Started Now
             </button>

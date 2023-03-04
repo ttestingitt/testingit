@@ -1,0 +1,76 @@
+.resume-container {
+  width: 440px;
+  min-height: 377px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 40px rgb(152 145 158 / 10%);
+  border: 1px solid rgba(117, 125, 154, 0.3);
+
+  .card-content {
+    padding: 30px;
+
+    .role {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .years {
+      font-size: 16px;
+      padding: 5px 0;
+      font-weight: 500;
+    }
+
+    .desc {
+      font-size: 16px;
+      margin-bottom: 15px;
+      min-height: 93px;
+    }
+
+    .availability,
+    .salary {
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 15px;
+      span {
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+
+    .skills {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      .skill {
+        font-size: 12px;
+        background-color: var(--light-gray);
+        color: white;
+        font-weight: 500;
+        border-radius: 15px;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .why-container {
+    padding: 40px 20px;
+  }
+  .card-content {
+    padding: 20px !important;
+    .card-header {
+      i {
+        font-size: 1.1rem !important;
+      }
+      .card-title {
+        font-size: 0.8rem !important;
+      }
+    }
+    .card-desc {
+      font-size: 0.8rem !important;
+    }
+  }
+}
