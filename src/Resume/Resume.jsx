@@ -19,7 +19,8 @@ const Resume = (props) => {
           <span>Availability:</span> {props.availability}
         </div>
         <div className="salary">
-          <span>Salary:</span> {props.salary}
+          <span>Salary:</span> US{props.salary}{" "}
+          <span className="month">/month</span>
         </div>
       </div>
     </div>
